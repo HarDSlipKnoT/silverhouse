@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* header */
+.header__container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 38px;
+}
+
+.header__logo {
+  margin-bottom: 80px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav__item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #8c8a8a;
+}
+
+.banner__bg {
+  background: url(../img/block\ 1.png);
+  max-width: 1110px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.banner {
+  margin-bottom: 30px;
+}
+
+.main-desc {
+  margin-bottom: 30px;
+}
+
+.main-desc__content {
+  display: flex;
+}
+
+.main-desc__title {
+  margin: 0;
+  margin: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #4581b7;
+}
+
+.main-desc__text {
+  margin: 0;
+  max-width: 595px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #808080;
+}
+
+.right-text {
+  max-width: 286px;
+  margin-bottom: 25px;
+}
+
+.main-desc__left-card {
+  margin-right: 30px;
+  padding: 50px 40px;
+  background-color: #f0f0f0;
+  flex-basis: 75%;
+}
+
+.main-desc__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #808080;
+}
+
+.main-desc__link:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.main-desc__right-card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  background-color: #f0f0f0;
+  flex-basis: 25%;
+}
+
+.footer__content {
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.footer__text {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #808080;
+}
+
+.footer__link {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #808080;
+}
+
+.footer__content {
+  background-color: #f0f0f0;
+}
+
